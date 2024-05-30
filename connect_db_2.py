@@ -8,6 +8,11 @@ try:
         database='pruebabd'
     )
 
+
+
+
+
+
     cursor = connection.cursor()
     cursor.execute("SELECT VERSION()")
     data = cursor.fetchone()
